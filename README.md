@@ -20,6 +20,8 @@ We welcome contributors of all levels of experience and from all different backg
 
 We are liberal about membership. If you want to be a member, please open an issue on this repository and we will add you. :smile:
 
+As a member, you are welcome to create repositories in this community and to transfer your existing repos. The only criteria is that they're related to Cycle.js and that collaboration is welcomed.
+
 The most straightforward way to contribute to a repository is to open a pull request. We ask that repositories in our community follow [Github flow](https://guides.github.com/introduction/flow/) as using pull requests allows for more review, discussion and learning to take place.
 
 When one of your pull requests is merged, you will be added as a collaborator to the repository. This allows for easier collaboration (as collaborators can work together on pull requests).
