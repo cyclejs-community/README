@@ -61,15 +61,23 @@ function readmeDriver (sink$) {
   });
 }
 
+function labeledWithHelp (issue) {
+  const labels = issue.labels.map(label => label.name);
+
+  return labels.some(label => label.toLowerCase().includes('help'));
+}
+
 function addIssues (issuesByRepo, issues) {
-  if (issues.length === 0) {
+  const issuesLabeledWithHelp = issues.filter(labeledWithHelp);
+
+  if (issuesLabeledWithHelp.length === 0) {
     return issuesByRepo;
   }
 
-  const repoName = issues[0].repository_url
+  const repoName = issuesLabeledWithHelp[0].repository_url
     .replace('https://api.github.com/repos/cyclejs-community/', '');
 
-  issuesByRepo[repoName] = issues;
+  issuesByRepo[repoName] = issuesLabeledWithHelp;
 
   return issuesByRepo;
 }
@@ -82,7 +90,7 @@ function main ({HTTP}) {
     .map(repos => repos.map(
       repo => repo.issues_url.replace(
         '{/number}',
-        `?client_id=${CLIENT_ID}&client_secret=${SECRET_KEY}&labels=Status: Help Wanted&assignee=none`
+        `?client_id=${CLIENT_ID}&client_secret=${SECRET_KEY}&assignee=none`
       )
     ));
 

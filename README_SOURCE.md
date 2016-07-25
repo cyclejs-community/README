@@ -33,5 +33,5 @@ Being a collaborator means:
   * You have no obligation to contribute, but any work you do is very appreciated.
   * You still work with pull requests, but now you work on the repo itself, not your fork. This makes it easier to collaborate.
 
-Here is an automagically generated list of open, unassigned issues with the label "Status: Help Wanted". If you want to contribute but you're unsure what to work on, take a look at these issues and comment on any you're interested in.
+Here is an automagically generated list of open, unassigned issues with a "Help Wanted" label. If you want to contribute but you're unsure what to work on, take a look at these issues and comment on any you're interested in.
 
