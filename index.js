@@ -21,9 +21,7 @@ function apiCall (path) {
 }
 
 function prettyIssue (issue) {
-  return [
-    `* [#${issue.number} - ${issue.title}](${issue.html_url})\n`
-  ].join('\n');
+  return `* [#${issue.number} - ${issue.title}](${issue.html_url})`
 }
 
 function prettyIssues (issues) {
@@ -31,7 +29,7 @@ function prettyIssues (issues) {
     Object.keys(issues).map(repoName => (
       [
         `**${repoName}**`,
-        issues[repoName].map(prettyIssue)
+        issues[repoName].map(prettyIssue).join('\n')
       ].join('\n')
     )).join('\n\n')
   );
