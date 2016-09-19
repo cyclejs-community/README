@@ -42,7 +42,15 @@ Here is an automagically generated list of open, unassigned issues with a "Help 
 
 
 **cyclic-router**
-* [#32 - Provide a param observable instead of value](https://github.com/cyclejs-community/cyclic-router/issues/32)
+* [#129 - I can't run example in readme](https://github.com/cyclejs-community/cyclic-router/issues/129)
+,* [#124 - Question: its possible to make a Link component?](https://github.com/cyclejs-community/cyclic-router/issues/124)
+,* [#95 - Component runs twice, isolated child components lose scope/namespace](https://github.com/cyclejs-community/cyclic-router/issues/95)
+,* [#32 - Provide a param observable instead of value](https://github.com/cyclejs-community/cyclic-router/issues/32)
+
+
+**cycle-canvas**
+* [#23 - Add support for images](https://github.com/cyclejs-community/cycle-canvas/issues/23)
+,* [#22 - Publishing new versions to NPM](https://github.com/cyclejs-community/cycle-canvas/issues/22)
 
 
 **cyclejs-community**
