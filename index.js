@@ -44,6 +44,7 @@ function readmeDriver (sink$) {
           GENERATED_WARNING,
           README_PREFACE,
           prettyIssues(issues),
+          '\n',
           GENERATED_WARNING
         ].join('\n')
       );
