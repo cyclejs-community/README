@@ -2,7 +2,7 @@ import {run} from '@cycle/xstream-run';
 import {makeHTTPDriver} from '@cycle/http';
 import xs from 'xstream';
 import delay from 'xstream/extra/delay';
-import flattenSequentially from 'xstream/extra/flattensequentially';
+import flattenSequentially from 'xstream/extra/flattenSequentially';
 import process from 'process';
 import fs from 'fs';
 
