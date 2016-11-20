@@ -12,7 +12,7 @@ We are a welcoming, collaborative community. We believe that contributions shoul
 
 We do not tolerate behaviour that makes other contributors feel harassed or unwelcome. Please see the **[code of conduct](https://github.com/cyclejs-community/cyclejs-community/blob/master/CODE-OF-CONDUCT.md)**.
 
-In short, don't be a dick and consider how others will perceive your actions. If you experience any negative interactions, please contact either @tylors or @widdershin and we will do our best to help. If in doubt, get in touch.
+In short, don't be a dick and consider how others will perceive your actions. If you experience any negative interactions, please contact either [Tylor](https://github.com/TylorS) or [Nick](https://github.com/widdershin) and we will do our best to help. If in doubt, get in touch.
 
 Getting involved
 ---
