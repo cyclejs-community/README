@@ -89,7 +89,7 @@ function main ({HTTP}) {
     .map(repos => repos.map(
       repo => repo.issues_url.replace(
         '{/number}',
-        `?client_id=${CLIENT_ID}&client_secret=${SECRET_KEY}&assignee=none`
+        `?client_id=${CLIENT_ID}&client_secret=${SECRET_KEY}&assignee=none&state=open`
       )
     ));
 
