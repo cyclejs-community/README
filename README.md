@@ -42,8 +42,12 @@ Here is an automagically generated list of open, unassigned issues with a "Help 
 * [#95 - Component runs twice, isolated child components lose scope/namespace](https://github.com/cyclejs-community/cyclic-router/issues/95)
 * [#32 - Provide a param observable instead of value](https://github.com/cyclejs-community/cyclic-router/issues/32)
 
-**cyclejs-community**
-* [#10 - Present to a JavaScript meetup in Edmonton, Canada](https://github.com/cyclejs-community/cyclejs-community/issues/10)
+**cycle-canvas**
+* [#28 - Add more examples](https://github.com/cyclejs-community/cycle-canvas/issues/28)
+* [#16 - How to handle click events?](https://github.com/cyclejs-community/cycle-canvas/issues/16)
+
+**README**
+* [#10 - Present to a JavaScript meetup in Edmonton, Canada](https://github.com/cyclejs-community/README/issues/10)
 
 **cycle-svg-pan-and-zoom**
 * [#3 - Support touch events for panning and zooming](https://github.com/cyclejs-community/cycle-svg-pan-and-zoom/issues/3)
