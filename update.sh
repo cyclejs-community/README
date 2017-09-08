@@ -1,3 +1,5 @@
+npm install
+
 git clone https://github.com/cyclejs-community/cyclejs-community.git
 
 # Yeah, I clone my repo into my repo, wanna fight about it?
