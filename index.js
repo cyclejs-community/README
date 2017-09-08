@@ -63,7 +63,9 @@ function readmeDriver (sink$) {
 function labeledWithHelp (issue) {
   const labels = issue.labels.map(label => label.name);
 
-  return labels.some(label => label.toLowerCase().includes('help'));
+  return labels
+    .map(label.toLowerCase())
+    .some(label => label.includes('help') || label.includes('pr-welcome'));
 }
 
 function addIssues (issuesByRepo, issues) {
