@@ -1,10 +1,10 @@
 npm install
 
-git clone https://github.com/cyclejs-community/cyclejs-community.git
+git clone https://github.com/cyclejs-community/README.git
 
 # Yeah, I clone my repo into my repo, wanna fight about it?
 
-cd cyclejs-community
+cd README
 
 cp -r ../node_modules .
 
@@ -25,5 +25,5 @@ rm ~/.git-credentials
 
 cd ..
 
-rm -rf cyclejs-community/.git
-rm -r cyclejs-community
+rm -rf README/.git
+rm -r README

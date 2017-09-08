@@ -64,7 +64,7 @@ function labeledWithHelp (issue) {
   const labels = issue.labels.map(label => label.name);
 
   return labels
-    .map(label.toLowerCase())
+    .map(label => label.toLowerCase())
     .some(label => label.includes('help') || label.includes('pr-welcome'));
 }
 
